@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact — Zeogital Consulting</title>
+<meta name="description" content="Book a free security review with Zeogital Consulting. Tell us about your business and we'll reply within one business day.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;800;900&family=Instrument+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+  <div class="wrap nav">
+    <a href="index.html" class="logo">
+      <img src="images/logo.svg" alt="Zeogital Consulting — home" class="logo-img">
+    </a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="contact.html" class="active" aria-current="page">Contact</a></li>
+      <li><a href="contact.html" class="btn btn-brass">Get a security review</a></li>
+    </ul>
+    <button class="menu-toggle" id="menuToggle" aria-label="Open menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main>
+  <section>
+    <div class="wrap">
+      <span class="eyebrow">Contact</span>
+      <h2 style="margin-bottom:12px">Let's assess where you stand</h2>
+      <p class="lead">Tell us a little about your business and we'll come back within one business day with next steps — starting with your free security review.</p>
+      <div class="contact-grid">
+        <form name="contact" method="POST" action="/success.html" data-netlify="true" netlify-honeypot="bot-field">
+          <input type="hidden" name="form-name" value="contact">
+          <p class="hidden-field">
+            <label>Don't fill this out if you're human: <input name="bot-field"></label>
+          </p>
+          <div class="field">
+            <label for="cname">Name</label>
+            <input id="cname" name="name" type="text" placeholder="Your full name" autocomplete="name" required>
+          </div>
+          <div class="field">
+            <label for="cemail">Work email</label>
+            <input id="cemail" name="email" type="email" placeholder="you@company.com" autocomplete="email" required>
+          </div>
+          <div class="field">
+            <label for="ctopic">What do you need?</label>
+            <select id="ctopic" name="topic">
+              <option>Free security review</option>
+              <option>Penetration testing</option>
+              <option>SIEM / security operations</option>
+              <option>Cloud security</option>
+              <option>Compliance (ISO, GDPR, NDPR…)</option>
+              <option>Something else</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="cmsg">Message</label>
+            <textarea id="cmsg" name="message" placeholder="Tell us about your setup — company size, what you've built, and any security concerns keeping you up at night…" required></textarea>
+          </div>
+          <button class="btn btn-navy" type="submit">Request my review</button>
+        </form>
+        <aside class="contact-alt">
+          <h3>Reach us directly</h3>
+          <p>Prefer a direct line? We keep it human.</p>
+          <div class="contact-line"><span class="k">Email</span><a href="mailto:hello@zeogital.example">hello@zeogital.example</a></div>
+          <div class="contact-line"><span class="k">Consult</span><a href="#" onclick="return false">Book a 30-min consultation</a></div>
+          <div class="contact-line"><span class="k">LinkedIn</span><a href="#" onclick="return false">Zeogital Consulting</a></div>
+          <div class="contact-line"><span class="k">Base</span><span>Nigeria · serving SMEs worldwide</span></div>
+        </aside>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <a href="index.html" class="logo">
+      <img src="images/logo.svg" alt="Zeogital Consulting — home" class="logo-img logo-img-footer">
+    </a>
+    <span class="tagline">ENTERPRISE-GRADE. BUILT FOR STARTUPS.</span>
+    <nav aria-label="Footer">
+      <a href="about.html">About</a>
+      <a href="services.html">Services</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <span>© 2026 Zeogital Consulting</span>
+  </div>
+</footer>
+
+<script src="main.js"></script>
+</body>
+</html>
