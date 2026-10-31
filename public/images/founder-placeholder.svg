@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="280" height="280" viewBox="0 0 280 280" role="img" aria-label="Founder photo placeholder">
+  <!-- PLACEHOLDER — replace with founder.jpg (a real headshot) and update the src in about.html -->
+  <rect width="280" height="280" fill="#122A47"/>
+  <circle cx="140" cy="108" r="46" fill="#5B7794"/>
+  <path d="M50 250c10-52 46-74 90-74s80 22 90 74" fill="#5B7794"/>
+  <text x="140" y="262" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" letter-spacing="2" fill="#D9A441">PHOTO COMING SOON</text>
+</svg>
